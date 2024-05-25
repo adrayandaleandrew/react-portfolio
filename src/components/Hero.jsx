@@ -13,8 +13,7 @@ const Hero = () => {
                <TypeAnimation 
                   sequence={[
                     "Developer", 1000,
-                    'Webdesigner',1000,
-                    'Consultant', 1000
+                    'Webdesign',1000
                   ]}
                   speed={50}
                   repeat={Infinity}
@@ -22,7 +21,7 @@ const Hero = () => {
                />
             </p>
 
-            <h2 className='text-gray-300'>with 5x years of experience</h2>
+            <h2 className='text-gray-300'>Aspiring Developer</h2>
 
 
             <div className='flex flex-row gap-4 mb-4 md:mb-0'>
