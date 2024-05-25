@@ -1,5 +1,5 @@
 import React from 'react'
-import profilepic from '../assets/profilepic'
+import profilepic from "../assets/profilepic.png"
 import { TypeAnimation } from 'react-type-animation'
 
 
@@ -9,7 +9,7 @@ const Hero = () => {
           <div className='max-w-[800px] '>
             <p className='text-gray-200 md:text-6xl text-3xl tracking-tight'>
                HEY, I AM <br />
-               <span>JOHN DOE</span> <br />
+               <span>Dale Andrew</span> <br />
                <TypeAnimation 
                   sequence={[
                     "Developer", 1000,

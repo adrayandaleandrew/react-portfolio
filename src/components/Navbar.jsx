@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className='flex text-2xl justify-between text-gray-200 items-center px6 max-w-[1300px] mx-auto h-24'>
-        <a href=""> J.Doe</a>
+        <a href=""> Dale Andrew</a>
 
 
         <ul className='hidden md:flex gap-12 z-10 cursor-pointer'>
