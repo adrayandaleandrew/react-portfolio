@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { IoMdTime, IoIosContact} from "react-icons/io";
 const Contact = () => {
   return (
     <div className='px-6 max-w-[1000px] mx-auto glass grid md:grid-cols-2 place-items-center' id='contact'>
@@ -9,17 +9,17 @@ const Contact = () => {
             <ul className='my-auto pr-6'>
 
                 <li className='flex'>
-                    <AiFillLinkedin className='w-[70px] h-auto text-gray-300' />
+                    <IoIosContact className='w-[70px] h-auto text-gray-300' />
                     <div className='m-5'>
-                        <h3 className='text-lg font-bold text-gray-200'>Contact</h3>
-                        <p className='text-gray-400'>Email: xxx</p>
-                        <p className='text-gray-400'>Mobile: xxx</p>
+                        <h3 className='text-lg font-bold text-gray-200'>Contact Info: </h3>
+                        <p className='text-gray-400'>adrayandaleandrew@gmail.com</p>
+                        <p className='text-gray-400'>0908-210-0348 | 054-050-2868</p>
                     </div>
                 </li>
                 
                 
                 <li className='flex'>
-                    <AiFillGithub className='w-[70px] h-auto text-gray-300' />
+                    <IoMdTime className='w-[70px] h-auto text-gray-300' />
                     <div className='m-5'>
                         <h3 className='text-lg font-bold text-gray-200'>Working Hours</h3>
                         <p className='text-gray-400'>Mon-Fri: 10am-5pm</p>

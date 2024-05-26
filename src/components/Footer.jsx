@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithubSquare, FaInstagram } from 'react-icons/fa'
+import { FaGithubSquare, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -7,10 +7,10 @@ const Footer = () => {
         
           {/* LEFT */}
           <div className='space-y-4'>
-                <h3 className='text-2xl text-gray-200 font-semibold'>J.DOE</h3>
+                <h3 className='text-2xl text-gray-200 font-semibold'>Official Links: </h3>
                 <div className='flex flex-row gap-6 text-gray-400 text-4xl'>
-                  <a><FaGithubSquare /></a>
-                  <a><FaInstagram /></a>
+                  <a href='https://github.com/adrayandaleandrew/'><FaGithubSquare /></a>
+                  <a href='https://www.linkedin.com/in/dale-andrew-adrayan-851622263/'><FaLinkedin /></a>
                 </div>
           </div>
 
