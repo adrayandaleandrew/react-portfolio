@@ -21,7 +21,7 @@ const projects = [
     title: 'Project #2',
     description: "An e-commerce platform with various features.",
     links:{
-      site:"#",
+      site:"https://randr-e-commerce.vercel.app/",
       github:"https://github.com/adrayandaleandrew/e-commerce-website"
     }
   },
