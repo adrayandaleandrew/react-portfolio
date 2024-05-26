@@ -24,7 +24,7 @@ const About = () => {
       id="about"
     >
       {/* for Mobile */}
-      <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-lg p-6 flex flex-wrap gap-4 text-xl justify-center hidden">
+      <div className="bg-white bg-opacity-10 backdrop-blur-lg rounded-lg p-6 flex-wrap gap-4 text-xl justify-center hidden">  {/* add "flex" in classname if needed */}
         <DiHtml5 className="text-orange-600 " />
         <DiCss3 className="text-blue-600 " />
         <DiBootstrap className="text-purple-600 " />
