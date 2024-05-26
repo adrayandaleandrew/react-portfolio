@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div className='flex text-2xl justify-between text-gray-200 items-center px6 max-w-[1300px] mx-auto h-24'>
-        <a href=""> Dale Andrew</a>
+        <a href="" className='md'> Dale Andrew</a>
 
 
         <ul className='hidden md:flex gap-12 z-10 cursor-pointer'>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
 
         {/* Burger Navigation */}
-        <div onClick={toggleNav} className='md:hidden z-30'>
+        <div onClick={toggleNav} className='md:hidden z-30 '>
             {nav ? <AiOutlineClose size={30}/> : <AiOutlineMenu size={30} />}
         </div>
 
