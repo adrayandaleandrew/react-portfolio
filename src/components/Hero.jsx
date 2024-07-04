@@ -22,7 +22,7 @@ const Hero = () => {
                />
             </p>
 
-            <h2 className='text-gray-300'>Aspiring Developer</h2>
+            <h2 className='text-gray-300'>A Developer</h2>
 
 
             {/* <div className='flex flex-row gap-4 mb-4 md:mb-0'>

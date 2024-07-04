@@ -1,6 +1,7 @@
 import React from 'react';
 import project1 from '../assets/project1.png';
 import project2 from '../assets/project2.png';
+import project4 from '../assets/project4.png';
 
 import {
   DiJavascript,
@@ -99,7 +100,7 @@ const About = () => {
         <div className="w-full h-full absolute -inset-1 bg-gradient-to-r from-teal-100 to-teal-900 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-300"></div>
 
         <div className="relative w-full p-4 bg-white bg-opacity-10 backdrop-blur-lg rounded-lg">
-          <img src="{project3}" alt="project 3" className="rounded-lg md:ma-w-[500px]" />
+          <img src={project4} alt="project 4" className="rounded-lg md:ma-w-[500px]" />
         </div>
       </div>
 
