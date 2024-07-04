@@ -33,6 +33,15 @@ const projects = [
       site:"https://my-web-portfolio-wheat.vercel.app/",
       github:"https://github.com/adrayandaleandrew/my-web-portfolio"
     }
+  },
+  {
+    img: project4,
+    title: 'Project #4',
+    description: "A website that contains small projects and uses vanilla HTML, CSS and JavaScript",
+    links:{
+      site:"https://my-web-portfolio-wheat.vercel.app/",
+      github:"https://github.com/adrayandaleandrew/my-web-portfolio"
+    }
   }
 ]
 
