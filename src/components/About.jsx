@@ -115,7 +115,6 @@ const About = () => {
         <div className="md:flex flex-wrap gap-4 text-4xl justify-center hidden">
           <DiNodejsSmall className="text-green-500 " />
           <DiMysql className='text-blue-400'/> 
-          <DiReact className="text-blue-500 " />
           <DiGithubBadge className='text-gray-500'/>
           <SiPhp className="text-violet-400" />
         </div>
